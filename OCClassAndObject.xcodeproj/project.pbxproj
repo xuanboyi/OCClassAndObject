@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		86C5FD2B1FF3BF2B00E38D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5FD2A1FF3BF2B00E38D2B /* main.m */; };
+		86C5FD331FF3BF3900E38D2B /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5FD321FF3BF3900E38D2B /* Apple.m */; };
+		86C5FD361FFB590A00E38D2B /* RedApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C5FD351FFB590A00E38D2B /* RedApple.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		86C5FD271FF3BF2B00E38D2B /* OCClassAndObject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCClassAndObject; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C5FD2A1FF3BF2B00E38D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86C5FD311FF3BF3900E38D2B /* Apple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		86C5FD321FF3BF3900E38D2B /* Apple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		86C5FD341FFB590A00E38D2B /* RedApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedApple.h; sourceTree = "<group>"; };
+		86C5FD351FFB590A00E38D2B /* RedApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedApple.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				86C5FD2A1FF3BF2B00E38D2B /* main.m */,
+				86C5FD311FF3BF3900E38D2B /* Apple.h */,
+				86C5FD321FF3BF3900E38D2B /* Apple.m */,
+				86C5FD341FFB590A00E38D2B /* RedApple.h */,
+				86C5FD351FFB590A00E38D2B /* RedApple.m */,
 			);
 			path = OCClassAndObject;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C5FD331FF3BF3900E38D2B /* Apple.m in Sources */,
 				86C5FD2B1FF3BF2B00E38D2B /* main.m in Sources */,
+				86C5FD361FFB590A00E38D2B /* RedApple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
